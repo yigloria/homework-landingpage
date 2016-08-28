@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+
+.css-selector {
+  font-family: 'Open Sans', serif;
+}
+/*body {*/
+   /*font-family: 'Open Sans',serif;*/
+/*}*/
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  background-image: url(../image/header_bg.jpg);
+  height: 450px;
+  background-size: cover;
+
+}
+.relaxr {
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding-left:100px;
+}
+
+/*div {*/
+  /*margin-bottom:10px;*/
+  /*border-bottom: 1px solid black;*/
+/*}*/
+
+
+
+.maininfo {
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 80px;
+}
+.one {
+  background-color: #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 800;
+  color:#121212;
+  width: 175px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left:550px;
+  margin-top: 54px;
+
+}
+.maincontent {
+  background-color: #f0efef;
+}
+.benefits {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: #f0efef;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.explain {
+  color:#606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-left: 55px;
+  margin-right: 830px;
+  margin-top: 24px;
+
+}
+.explain1 {
+  color:#606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-left: 55px;
+  margin-right: 880px;
+  line-height: 21px;
+  margin-top: 35px;
+
+}
+
+
+/*.header h1 {*/
+  /*color: white;*/
+/*}*/
+
+.maincontent {
+  display: block;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 371px;
+
+
+}
+.maincontent div {
+  background-color: #f0efef;
+  height: 400px;
+}
+.middlecontent {
+  height: 450px;
+  width: 100%;
+  background-image: url(../image/testimonial_bg.jpg);
+  background-size: cover;
+}
+.info {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding-top: 135px;
+  margin-left: 470px;
+  margin-right: 470px;
+  margin-top: 0px;
+}
+.info1 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+
+}
+.tip {
+    height: 126px;
+    width: 100%;
+    background-color: #f9e42e;
+    margin-top: 177px;
+}
+button {
+  background-color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  width: 175px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-left:520px;
+  margin-top: 40px;
+  border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+.footer {
+  height: 259px;
+  background-color: black;
+  margin-top: -24px;
+  /*width: 100%;*/
+  /*height:200px;*/
+}
+
+.footer div {
+  background-color:black;
+  height:200px;
+}
+.bottomlogo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  padding-top: 53px;
+}
+.icon1 {
+float:left;
+display:block;
+}
+
+.icon {
+  width: 53px;
+      height: 41px;
+      display: block;
+      background-repeat: no-repeat;
+      margin-top: 1px;
+
+}
+
+.facebook {
+  background-image:url(../image/facebook.png);
+}
+.twitter {
+  padding-right: 21px;
+  margin-left: 526px;
+background-image:url(../image/twitter.png);
+}
+.foo {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+  padding-top: 93px;
+}
