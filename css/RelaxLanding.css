@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);*/
 
 .css-selector {
   font-family: 'Open Sans', serif;
@@ -19,6 +19,11 @@
   background-size: cover;
 
 }
+
+.clearfix {
+  overflow: auto;
+}
+
 .relaxr {
   color: white;
   font-size: 24px;
@@ -58,6 +63,14 @@
 }
 .maincontent {
   background-color: #f0efef;
+}
+
+.maincontent {
+
+}
+
+div.maincontent {
+
 }
 .benefits {
   color: black;
@@ -137,7 +150,7 @@
     height: 126px;
     width: 100%;
     background-color: #f9e42e;
-    margin-top: 177px;
+    margin-top: 152px;
 }
 button {
   background-color: #033048;
@@ -158,7 +171,7 @@ button {
 
 }
 .footer {
-  height: 259px;
+  height: 263px;
   background-color: black;
   margin-top: -24px;
   /*width: 100%;*/
@@ -167,7 +180,7 @@ button {
 
 .footer div {
   background-color:black;
-  height:200px;
+  height:68px;
 }
 .bottomlogo {
   font-family: 'Open Sans', sans-serif;
@@ -177,9 +190,18 @@ button {
   text-align: center;
   padding-top: 53px;
 }
-.icon1 {
-float:left;
-display:block;
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons a {
+  margin: 10px;
+}
+
+.social-media-icons img {
+  /*width: 30px;*/
 }
 
 .icon {
@@ -191,19 +213,11 @@ display:block;
 
 }
 
-.facebook {
-  background-image:url(../image/facebook.png);
-}
-.twitter {
-  padding-right: 21px;
-  margin-left: 526px;
-background-image:url(../image/twitter.png);
-}
 .foo {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: 9px;
   color: white;
-  padding-top: 93px;
+  /*padding-top: 93px;*/
 }
