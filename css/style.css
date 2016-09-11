@@ -9,47 +9,57 @@
   height: 100%;
   width: 100%;
 }
+
 .link1 {
   font-family: 'Open Sans', serif;
   padding-left: 612px;
   font-size: 14px;
   font-weight: 300;
+}
 
-  }
-  .link1 a{
-    color: #033048;
-    font-weight: 800;
-    text-decoration: none;
-  }
+.link1 a{
+  color: #033048;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 a {
   padding-left: 7px;
   color: #033048;
 }
+
 .link2 a{
   text-decoration: none;
 }
+
 .nav a{
   text-decoration: none;
 }
+
 .main-content {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f1f1f1;
-    background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  background-size: cover;
 }
 
 p {
   color:#606161;
 }
+
 .tittle{
   font-family: 'Open Sans', serif;
   font-size: 40px;
   font-weight: 600;
   color:#033048;
+  margin-top: 0px;
+}
+.hide{
+  display:none;
 }
 .mainpage {
-    width: 700px;
-    margin:60px;
+  width: 700px;
+  margin: 60px;
 }
 
 .article1 {
@@ -66,16 +76,16 @@ p {
   font-weight: bolder;
   float:left;
   text-emphasis-position: below;
-
 }
 
-
-}
 .sidebar {
     width: 240px;
-    /*margin:60px;*/
-    margin-top: 81px;
+    margin-top: 50px;
     margin-right: 141px;
+}
+
+.info1 ul {
+    padding: 0 0px 0 0px;
 }
 
 h3 {
@@ -84,6 +94,7 @@ h3 {
   color:#033048;
   font size: 32px;
 }
+
 .info1 {
     list-style: none;
     font-family: 'Open Sans', serif;
@@ -104,8 +115,6 @@ li {
     font-family: 'Open Sans', serif;
     font-size: 18px;
     font-weight: 300;
-
-
 }
 
 .header {
